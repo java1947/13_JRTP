@@ -3,6 +3,9 @@ public class Demo{
 	System.out.println("Demo constructorExecuted");
  }
  public void add(int a,int b){
-  System.out.println(a+b);
+  System.out.println("ADD:: "+(a+b));
+   }
+   public void sub(int a,int b){
+	System.out.println("SUB:: "+(a-b));
    }
 }
